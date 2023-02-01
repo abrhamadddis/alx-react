@@ -1,0 +1,37 @@
+:root {
+  --font-forthepage:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --color-page:#e11d3f;
+}
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  align-items:center;
+  color:var(--color-page);
+}
+.App-header img {
+  height: 8rem;
+}
+.App-header h1 {
+  vertical-align: center;
+}
+.line-break {
+  height: 0.3rem;
+  background-color: var(--color-page);
+  border: none;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.App-body{
+  text-align: left;
+  color: black;
+  height: 40rem;
+  font-family: var(--font-forthepage);
+  margin-left: 3%;
+}
+.App-footer{
+  text-align: center;
+  color:black;
+  font-family:var(--font-forthepage);
+  font-style: italic;
+}
+
